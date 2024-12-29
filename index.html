@@ -73,6 +73,34 @@
                     </article>
                 </div>
             </section>
+
+            <!-- Reservation Block -->
+            <section id="reservation" class="reservation">
+                <h2 class="reservation__title">Book a Table</h2>
+                <form class="reservation__form">
+                    <fieldset class="form__fieldset">
+                        <label for="name" class="form__label">Name *</label>
+                        <input type="text" id="name" name="name" class="form__input" placeholder="Name Surname" required>
+                        
+                        <label for="guests" class="form__label">Number of guests *</label>
+                        <input type="number" id="guests" name="guests" class="form__input" min="1" max="8" placeholder="1-8" required>
+                        
+                        <label for="date" class="form__label">Date & time *</label>
+                        <input type="datetime-local" id="datetime-local" name="date" class="form__input" required>
+                        
+                        <label for="email" class="form__label">Your email *</label>
+                        <input type="email" id="email" name="email" class="form__input" placeholder="email@email.com" required>
+                    </fieldset>
+                    
+                    <button type="submit" class="form__button">Book a Table</button>
+                    
+                        
+                    <label for="terms" class="form__label">
+                        <input type="checkbox" id="terms" name="terms" class="form__checkbox" required>I agree with the terms of use
+                    </label>
+                </form>
+            </section>
         </main>
+    </div>
 </body>
 </html>
