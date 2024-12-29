@@ -1,0 +1,25 @@
+.menu__card {
+    width: 540px;
+}
+
+.card__title {
+    margin-bottom: 32px;
+}
+
+.card__list-items {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card__list-item {
+    margin-top: 16px;
+    display: flex;
+    gap: 10px;
+    font-family: "Noto Serif", 'Times New Roman';
+}
+
+.card__list-divider {
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+}
