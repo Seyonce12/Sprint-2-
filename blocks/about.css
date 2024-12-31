@@ -7,6 +7,7 @@
     position: relative;
     overflow: hidden;
     z-index: 0;
+    border-bottom: 1px solid #dad7d7;
 }
 
 .about__title {
@@ -16,15 +17,19 @@
     line-height: 52px;
     font-weight: 500;
     font-style: normal;
+    margin: 0;
 }
 
 .about__content {
     max-width: 660px;
-    font-family: "Noto Serif", 'Times New Roman';
+    font-family: "Noto Serif", 'Times New Roman', serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: normal;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .about__circle {
@@ -36,6 +41,13 @@
     top: -152px;
     left: -129px;
     z-index: -1;
+}
+
+.about__paragraph {
+    font-family: "Noto Serif", 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
 }
 
 .about__circle_animation_blurred {
