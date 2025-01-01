@@ -5,8 +5,8 @@
 .card__title {
     margin: 0;
     margin-bottom: 32px;
-    font-size: inherit;
-    line-height: normal;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .card__list-items {

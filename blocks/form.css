@@ -52,3 +52,9 @@
     vertical-align: middle;
     margin-right: 12px;
 }
+
+.form__label_type_checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

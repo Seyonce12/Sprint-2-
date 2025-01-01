@@ -5,12 +5,14 @@
     background-image: url(../images/background_recipes.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     color: white;
     padding-bottom: 215px;
     padding-top: 100px;
 }
 
 .recipes__title {
+    margin-top: 0;
     max-width: 580px;
     margin-bottom: 24px;
     margin-left: 80px;
@@ -21,6 +23,7 @@
 }
 
 .recipes__subtitle {
+    margin-top: 0;
     max-width: 438px;
     margin-bottom: 80px;
     margin-left: 80px;
@@ -30,8 +33,11 @@
 }
 
 .recipes__videos {
+    margin: 0;
+    padding-left: 0;
     display: flex;
     justify-content: center;
+    list-style-type: none;
     gap: 40px;
 }
 
